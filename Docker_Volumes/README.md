@@ -20,7 +20,7 @@ Bind mount is a concept where we can mount our host direcrtory to a directory in
 
 ## Practical Implementation of Docker Volumes
 
-## Example: Running an NGINX Container Without a Volume
+## Example: Running an NGINX Container without a Volume
 
 - Lets run a contianer without a volume
 
@@ -94,7 +94,7 @@ Bind mount is a concept where we can mount our host direcrtory to a directory in
 
 - Data persists, and the modified application content is still accessible.
 
-2. Example: Bind Mount Usage
+## 2. Example: Bind Mount Usage
 
 - Create a directory on the host and run the container by mounting the host directory.
 
