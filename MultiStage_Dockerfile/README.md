@@ -54,3 +54,15 @@ It then compares the sizes of both image types to illustrate the benefits of a M
 <div align="center">
   <img src="./output_of_Images.png" alt="Logo" width="100%" height="100%">
 </div>
+
+## Security Benefits of Distroless images
+
+By using the Distroless images, we can reduce unnecessary components and possible vulnerabilities. Distroless provides only required runtime environment for the application without including package managers, shells or other utilities. 
+
+To use a docker image in the MultiStage build, modify your Dockerfile as follows.
+
+ ```bash
+   FROM scratch
+   COPY --from=build /app /app
+   ENTRYPOINT ["/app"]
+  ```
