@@ -52,5 +52,5 @@ It then compares the sizes of both image types to illustrate the benefits of a M
 - Notice the significant difference in image sizes between SingleStage and MultiStage builds.
 
 <div align="center">
-  <img src="./MultiStage_Dockerfile/output_of_Images.png" alt="Logo" width="100%" height="100%">
+  <img src="MultiStage_Dockerfile/output_of_Images.png" alt="Logo" width="100%" height="100%">
 </div>
