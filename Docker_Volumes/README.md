@@ -7,7 +7,6 @@ Docker Volumes are used to persistent the data generated or used in the containe
 ## Key Benefits of Docker Volumes:
 
 - Data Persistence: Ensure Data remains persistent even after container removal.
-
 - Container Portability: Volumes can be shared between containers.
 
 ## What is Bind Mount?
