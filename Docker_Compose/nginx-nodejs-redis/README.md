@@ -22,11 +22,11 @@ Refer the compose.yml file where we defined nginx,python and redis containers.
 Start the services:
 
 ```bash
-   docker-compose up
+docker-compose up
   ```
 
 Stop the services:
 
 ```bash
-   docker-compose down
+docker-compose down
   ```
