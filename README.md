@@ -24,9 +24,9 @@ Let us understand the Key Components of Docker.
 
 ## Life Cycle of Docker
 
-Docker build --> This command is used to build the Docker Images from the Dockerfile.
-Docker run --> This command is used to run the image as a container
-Docker push --> This command is used to push the image to the Docker registry.
+- Docker build --> This command is used to build the Docker Images from the Dockerfile.
+- Docker run --> This command is used to run the image as a container
+- Docker push --> This command is used to push the image to the Docker registry.
 
 ## What is Docker Image?
 
@@ -34,19 +34,19 @@ Docker Image is a read only template which is built from the Dockerfile. It cont
 
 ## Some of the Key Commands
 
-docker pull --> is used to pull the images from Docker registry
-docker run -d --> is used to run the image as a container in the detach mode.
-docker run -it --> is used to run the image as a container in the interactive mode.
-docker exec -it --> is used to login to the container.
-docker images --> is used to list all the images
-docker ps -a --> is used to list all the containers.
-docker ps --> is used to list all the running containers.
-docker start --> is used to start the container.
-docker stop --> is used to stop the container.
-docker rmi --> is used to delete the images.
-docker rm --> is used to delete the containers.
-docker system prune --> is used to remove all the docker dangling(unused) resources.
-docker logs --> is used to check the logs of the container.
-docker stats --> is used to check the resource utilization of the container.
-docker inspect --> is used to inspect the container.
+- docker pull --> is used to pull the images from Docker registry
+- docker run -d --> is used to run the image as a container in the detach mode.
+- docker run -it --> is used to run the image as a container in the interactive mode.
+- docker exec -it --> is used to login to the container.
+- docker images --> is used to list all the images
+- docker ps -a --> is used to list all the containers.
+- docker ps --> is used to list all the running containers.
+- docker start --> is used to start the container.
+- docker stop --> is used to stop the container.
+- docker rmi --> is used to delete the images.
+- docker rm --> is used to delete the containers.
+- docker system prune --> is used to remove all the docker dangling(unused) resources.
+- docker logs --> is used to check the logs of the container.
+- docker stats --> is used to check the resource utilization of the container.
+- docker inspect --> is used to inspect the container.
 
